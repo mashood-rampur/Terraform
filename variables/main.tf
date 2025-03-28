@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "ap-south-1"
-}
-
 variable "instance_type" {
   description = "variable for ec2_instance type"
   type        = string
