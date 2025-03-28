@@ -3,3 +3,9 @@ variable "instance_type" {
   type        = string
   default     = "t2.micro"
 }
+
+variable "ami_id" {
+  description = "variable for ec2_ami_id"
+  type        = string
+  default     = ""
+}
