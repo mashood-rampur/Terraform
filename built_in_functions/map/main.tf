@@ -11,7 +11,7 @@ variable "values" {
 output "my_map" {
 value = zipmap(var.keys, var.values)
 }      
-Returns my_map = tomap({
+# Returns my_map = tomap({
 "age" = "30"
 "name" = "Alice"
 })
